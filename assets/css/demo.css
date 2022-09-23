@@ -1,0 +1,51 @@
+/**
+ * demo.css
+ * https://www.instagram.com/croco.code/
+ *
+ * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * Copyright 2022, CROCO.CODE
+ * https://www.instagram.com/croco.code/
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.loading-holder {
+  background: #ED213A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  display: block;
+  width: 100%; width: 100vw;
+  height: 100%; height: 100vh;
+  z-index: 1000;
+}
+
+.loading-holder .loading {
+  position: absolute;
+  left: 0; right: 0; top: 0; bottom: 0;
+  margin: auto;
+  width: 9em;
+  height: 9em;
+}
+
+.loading-holder .loading .loading-letters {
+  display: block;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.loading-holder .loading .loading-letters .letter {
+  display: inline-block;
+  line-height: 1em;
+}
