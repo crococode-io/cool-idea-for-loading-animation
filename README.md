@@ -1,4 +1,4 @@
-# Cool idea for loading animation
+# Cool idea for loading animation 
 
 A cool idea for loading animation made with anime.js that you can apply on your website. 
 
